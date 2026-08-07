@@ -28,11 +28,12 @@ TP/
 
 Exemple :
 
+```text
 Concepts/
 ├── npm.md
 ├── Git.md
 ├── Docker.md
-
+```
 Contient les notions réutilisables dans plusieurs projets.
 
 ---
@@ -41,11 +42,13 @@ Contient les notions réutilisables dans plusieurs projets.
 
 Exemple :
 
+```text
 projets/
 └── SC05/
     ├── GraphQL.md
     ├── DataLoader.md
     ├── Pagination_SQL.md
+```
 
 Contient les fiches directement liées à un projet ou à un bloc.
 
@@ -57,10 +60,11 @@ Toujours dans le dossier du projet concerné.
 
 Exemple :
 
+```text
 projets/
 └── SC05/
     └── SC05E03_dev_log.md
-
+```
 ---
 
 ## 📸 Screenshots
@@ -69,10 +73,11 @@ Uniquement les captures utiles au TP.
 
 Exemple :
 
+```text
 Screenshots/
 ├── GraphQL.png
 ├── Docker-compose.png
-
+```
 ---
 
 ## 📐 Diagrammes
@@ -81,10 +86,12 @@ Diagrammes techniques.
 
 Exemple :
 
+```text
 Diagrammes/
 ├── MCD.md
 ├── UML.md
 ├── Architecture_API.md
+```
 
 ---
 
@@ -94,9 +101,11 @@ Préparation de l'entretien avec le jury.
 
 Exemple :
 
+```text
 Oral/
 ├── Présentation_personnelle.md
 ├── Présentation_projet.md
+```
 
 ---
 
@@ -106,8 +115,10 @@ Questions fréquentes et réponses.
 
 Exemple :
 
+```text
 Questions-Jury/
 └── questions.md
+```
 
 ---
 
