@@ -4,18 +4,21 @@
 
 ---
 
-# Arborescence
+## Arborescence
 
+```text
 TP/
-├── Concepts/                # Notions générales (npm, Git, Docker...)
-├── Diagrammes/              # MCD, MLD, UML, Architecture...
-├── Dossier-Projet/          # Documents destinés au Dossier Projet
-├── Oral/                    # Préparation de l'oral
-├── Questions-Jury/          # Questions / réponses du jury
-├── Screenshots/             # Captures d'écran utiles
-├── Veille/                  # Veille technologique
-├── projets/                 # Toutes les fiches classées par bloc
-└── README.md
+├── Concepts/
+├── Diagrammes/
+├── Dossier-Projet/
+├── Oral/
+├── Questions-Jury/
+├── Screenshots/
+├── Veille/
+├── projets/
+├── README.md
+└── index.md
+```
 
 ---
 
