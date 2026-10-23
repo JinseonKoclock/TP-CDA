@@ -310,17 +310,29 @@ Il faudra donc ajouter la gestion du jeu dans le formulaire avant de pouvoir ter
 
 ## À faire à la prochaine session
 
-- [ ] Vérifier que `router.post("/", verifyAuth, addChallenge)` est correctement enregistré.
-- [ ] Vérifier les éventuelles erreurs TypeScript du controller.
+## À faire à la prochaine session
+
+- [x] Vérifier que `router.post("/", verifyAuth, addChallenge)` est correctement enregistré.
+
+- [x] Vérifier les éventuelles erreurs TypeScript du controller.
+
 - [ ] Améliorer le typage du champ Prisma `rules`.
-- [ ] Prévoir la récupération de la liste des jeux.
-- [ ] Ajouter la sélection du jeu dans `AddChallengePage`.
-- [ ] Ajouter `jeuId` aux données envoyées par le front.
-- [ ] Tester `POST /api/challenges`.
-- [ ] Vérifier que `author_id` correspond à l'utilisateur connecté.
-- [ ] Vérifier la création du challenge dans PostgreSQL.
-- [ ] Confirmer la signification et la valeur initiale de `status`.
-- [ ] Connecter ensuite la liste des challenges au GET `/api/challenges`.
+
+- [x] Prévoir la récupération de la liste des jeux.
+
+- [x] Ajouter la sélection du jeu dans `AddChallengePage`.
+
+- [x] Ajouter `jeuId` aux données envoyées par le front.
+
+- [x] Tester `POST /api/challenges`.
+
+- [x] Vérifier que `author_id` correspond à l'utilisateur connecté.
+
+- [x] Vérifier la création du challenge dans PostgreSQL.
+
+- [x] Supprimer `status`, fonctionnalité liée à l'administration et retirée du MVP.
+
+- [x] Connecter la liste des challenges au GET `/api/challenges`.
 
 ---
 
