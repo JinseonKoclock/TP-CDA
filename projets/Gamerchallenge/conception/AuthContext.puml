@@ -1,0 +1,31 @@
+@startuml
+top to bottom direction
+
+rectangle "AuthProvider" as Provider
+rectangle "GET /api/auth/me" as API
+rectangle "Backend\nVérifie le cookie" as Backend
+rectangle "setUser()" as SetUser
+rectangle "AuthContext\nuser • isLoading" as Context
+
+rectangle "Header" as Header
+rectangle "ProtectedRoute" as Protected
+rectangle "Autres composants" as Others
+
+rectangle "Utilisateur connecté ?" as Auth
+rectangle "Redirection vers /login" as Login
+rectangle "Afficher la page" as Page
+
+Provider --> API
+API --> Backend
+Backend --> SetUser : utilisateur renvoyé
+SetUser --> Context
+
+Context --> Header
+Context --> Protected
+Context --> Others
+
+Protected --> Auth
+Auth --> Login : Non
+Auth --> Page : Oui
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+
+:AuthProvider;
+:GET /api/auth/me;
+:Backend\nVérifie le cookie;
+:setUser();
+:AuthContext;
+
+@enduml
